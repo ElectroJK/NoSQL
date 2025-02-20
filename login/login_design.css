@@ -1,0 +1,145 @@
+body {
+  font-family: 'Garamond', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-vector/modern-brown-background-vector-4k-hd_822642-1424.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  color: #f5e1c8;
+}
+
+.container {
+  background: rgba(70, 50, 40, 0.8);
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+  border: 2px solid #a67c52;
+}
+
+h1 {
+  color: #e3c5a8;
+  font-size: 26px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+input, button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Garamond', serif;
+}
+
+input {
+  background: #3e2a20;
+  color: #f5e1c8;
+  border: 1px solid #a67c52;
+  text-align: left;
+  padding-left: 15px;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: #c4a78a;
+  opacity: 1;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 40px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.password-container {
+  position: relative;
+  width: 90%;
+}
+
+.password-container input {
+  width: 100%;
+  padding-right: 50px; 
+}
+
+
+.password-container #togglePassword {
+  position: absolute;
+  right: -55px; 
+  color: #cfa693;
+  top: 41%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  height: auto;
+  width: auto;
+  line-height: normal;
+}
+
+button {
+  background: linear-gradient(135deg, #8c6443, #5b3a29);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #a67c52, #704a36);
+}
+
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #e3c5a8;
+}
+
+a {
+  color: #d8b6ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.password-container-forgot {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.password-container-forgot input {
+  width: 90%;
+  padding-right: 50px;
+}
+
+.password-container-forgot #toggleNewPassword {
+  position: absolute;
+  right: -10px;
+  top: 60%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #f5e1c8;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.password-container #toggleNewPassword:hover {
+  color: #e3c5a8;
+}
